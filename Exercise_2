@@ -1,0 +1,13 @@
+print ("Podaj numer: ") 
+
+a= int (input())
+
+reszta= a % 2
+
+if reszta == 0:
+    
+	print ("Liczba parzysta.")
+
+elif reszta != 0:
+    
+	print ("Liczba nieparzysta.")
