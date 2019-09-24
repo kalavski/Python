@@ -1,0 +1,7 @@
+imię = Input ("Jak masz na imię?")
+print ("Hello " + imię)
+wiek = int (Input ("Ile masz lat? "))
+wiek2 = str (100 - wiek)
+wiek3 = int (wiek2)
+rok = str (2019 + wiek3)
+print ("W " + rok + " czyli za " + wiek2 + " lat, będziesz świętowac 100 urodziny."
