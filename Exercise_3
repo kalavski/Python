@@ -1,0 +1,9 @@
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = []
+il_liczb = int (input("Podaj liczbe: "))
+
+for x in a:
+    if x < il_liczb:
+        b.append(x)
+        print ("Liczby mniejsze to: ")
+        print (b)
