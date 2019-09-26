@@ -1,0 +1,12 @@
+''' Dzielniki liczb '''
+liczba = int(input("Podaj liczbę: "))
+
+lista = list(range(1, liczba+1))
+
+dzielnik=[]
+
+for x in lista:
+    if liczba % x ==0:
+        dzielnik.append(x)
+        
+print(dzielnik)
