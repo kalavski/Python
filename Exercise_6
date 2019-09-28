@@ -1,0 +1,7 @@
+znak = input ("Podaj ciąg znaków: ")
+
+if znak == znak [::-1]:
+    print("Podany ciąg jest palindoromem.")
+    
+else:
+    print("Podany ciąg nie jest palindromem.")
