@@ -1,0 +1,23 @@
+gracz_1 =input ("Wybierz: kamień, papier albo nożyce: ")
+print (gracz_1)
+gracz_2 = input ("Wybierz: kamień, papier albo nożyce: ")
+print (gracz_2)
+
+if gracz_1 == "kamień" and gracz_2 == "nożyce":
+    print ("Wygrał gracz 1.")
+elif gracz_1 == "kamień" and gracz_2 == "papier":
+    print ("Wygrał gracz 2.")
+elif gracz_1 == "kamień" and gracz_2 == "kamień":
+    print ("Remis")
+elif gracz_1 == "papier" and gracz_2 == "kamień":
+    print ("Wygrał gracz 1.")
+elif gracz_1 == "papier" and gracz_2 == "papier":
+    print ("Remis.")
+elif gracz_1 == "papier" and gracz_2 == "nożyce":
+    print ("Wygrał gracz 2")
+elif gracz_1 == "nożyce" and gracz_2 == "kamień":
+    print ("Wygrał gracz 2")
+elif gracz_1 == "nożyce" and gracz_2 == "papier":
+    print ("Wygrał gracz 1")
+elif gracz_1 == "nożyce" and gracz_2 == "nożyce":
+    print ("Remis")
