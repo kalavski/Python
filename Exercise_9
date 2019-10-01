@@ -1,0 +1,12 @@
+import random
+a = random.randint(1,9)
+print (a)
+b = int(input("Podaj cyfrę: "))
+print (b)
+
+if a > b:
+    print ("Podałes za mały numer.")
+elif a < b:
+    print ("Podałeś za duży numer.")
+else:
+    print ("Odgadłeś numer!!!")
