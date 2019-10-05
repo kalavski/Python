@@ -1,0 +1,19 @@
+def roznice(a,c):
+    return (list(set(a) - set(c)))
+
+import random
+a = random.sample(range(20),random.randint(5, 20))
+b = random.sample(range(20),random.randint(5, 20))
+a.sort()
+b.sort()
+
+print (a)
+print (b)
+
+c = set(a) & set (b)
+
+print("Duplikujące się wartości: ")
+print(c)
+print ("Zbiór bez duplukujących wartości: ")
+print(roznice(a,c))
+roznice(a,c)
