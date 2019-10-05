@@ -1,0 +1,9 @@
+import random
+a = random.sample(range(20),random.randint(5, 20))
+
+print (a)
+
+print("Pierwszy element z listy: ")
+print(a.pop(0))
+print("Ostatni element z listy: ")
+print(a.pop())
