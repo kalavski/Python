@@ -14,6 +14,6 @@ c = set(a) & set (b)
 
 print("Duplikujące się wartości: ")
 print(c)
-print ("Zbiór bez duplukujących wartości: ")
+print ("Zbiór bez duplikujących wartości: ")
 print(roznice(a,c))
 roznice(a,c)
