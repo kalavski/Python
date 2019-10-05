@@ -1,0 +1,11 @@
+a = int(input ("Podaj numer: "))
+b = [x for x in range(2,a) if a % x == 0]
+
+def jaka_liczba(c):
+    if a == 0 or a == 1:
+        print("Liczba ani pierwsza ani złożona.")
+    elif len(b) == 0:
+        print ("Liczba pierwsza.")
+    else:
+        print("Liczba złożona.")
+jaka_liczba(a)
