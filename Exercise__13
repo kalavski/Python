@@ -1,0 +1,14 @@
+numer = [0,1] #dwa pierwsze wyrazu ciągu
+a = int(input("Ile liczb Fibonnaciego wygenerowac?: "))
+b = [] #pusta lista 
+
+def fibo(numer):
+    liczba = 0
+    
+    for i in range(a):
+        liczba = numer[-1] + numer[-2]
+        
+        numer.append(liczba)
+        print(liczba)
+
+fibo(numer)
