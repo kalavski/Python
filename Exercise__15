@@ -1,0 +1,4 @@
+znak = input ("Podaj ciąg znaków: ")
+ciag = znak.split()
+    
+print (" ".join(ciag[::-1]))
