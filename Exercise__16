@@ -1,0 +1,7 @@
+'''Generowanie haseł '''
+import random
+znaki = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+dlugosc = int(input("Jak długie ma być hasło: "))
+
+haslo = "".join(random.sample(znaki,dlugosc))
+print("Twoje hasło to: " + haslo)
