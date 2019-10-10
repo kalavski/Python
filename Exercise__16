@@ -1,7 +1,16 @@
 '''Generowanie haseł '''
 import random
-znaki = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+import string
+
 dlugosc = int(input("Jak długie ma być hasło: "))
 
+duze_litery = [random.choice(string.ascii_uppercase)]
+male_litery = [random.choice(string.ascii_lowercase)]
+liczba = [random.choice(string.digits)]
+symbol = [random.choice(string.punctuation)]
+
+znaki = duze_litery + male_litery + liczba + symbol
+
 haslo = "".join(random.sample(znaki,dlugosc))
+
 print("Twoje hasło to: " + haslo)
